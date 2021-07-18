@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title id="title-temp">weather</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>
+		<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+		<link rel="manifest" href="/site.webmanifest">
+  </head>
+  <body>
+    <section id="landing-page">
+    <h1>weather</h1>
+		<p><i>a minimally designed weather app</i></p>
+		<p>start by typing your zipcode below.</p>
+		<input id="zip" maxlength='5' value='' placeholder = "00000"/>
+    <button id="press">Enter</button>
+    </section>
+    <section id="weather-info">
+			<p id="description"></p>
+			<p id="low-temp"></p>
+      <p id="temp"></p>
+			<p id="high-temp"></p>
+      <p id="humidity"></p>
+			<p id="area"></p>
+			<p id="country"></p>
+    </section>
+		<p id="note">if the 'area' or 'country' seems incorrect then try the zipcode one number above or below your actual zipcode</p>
+    <script src="script.js"></script>
+  </body>
+</html> 

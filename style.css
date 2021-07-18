@@ -1,0 +1,34 @@
+/* roboto font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/* input field (credit to uicookies.com with some modifications to match by me) */
+#zip {
+  display: block;
+  margin: 1em auto;
+  border: none;
+  padding: 0;
+  width: 7.5ch;
+  background: repeating-linear-gradient(90deg, dimgrey 0, dimgrey 1ch, transparent 0, transparent 1.5ch) 0 100%/7ch 2px no-repeat;
+  font: 5ch 'Roboto', consolas, monospace;
+  letter-spacing: 0.5ch;
+}
+input:focus {
+  outline: none;
+  color: dodgerblue;
+}
+
+body{
+  background:skyblue;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+}
+
+section{
+  text-align:center;
+
+}
+
+#note {
+	color: #808080;
+}
+
